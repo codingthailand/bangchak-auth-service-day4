@@ -36,6 +36,7 @@ jobs:
         host: '146.190.103.98'
         username: 'root'
         password: '$Admin_1jj395qu'
+        #password: ${{ secrets.PRODUCTION_PASSWORD }}
         port: '22'
         script: |
           whoami
